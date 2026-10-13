@@ -1,0 +1,27 @@
+{
+  "source_file": "core_ml_dataset_cv5_within_line.csv",
+  "source_rows": 21317,
+  "source_lines": 34,
+  "source_fault_counts": {
+    "AB": 1938,
+    "ABC": 1938,
+    "ABCG": 1938,
+    "ABG": 1938,
+    "AC": 1938,
+    "ACG": 1938,
+    "AG": 1937,
+    "BC": 1938,
+    "BCG": 1938,
+    "BG": 1938,
+    "CG": 1938
+  },
+  "sample_rows": 110,
+  "sample_columns": 307,
+  "sampling": "First two rows per fault class and cv_fold in source order. Illustrative, not statistically representative.",
+  "removed_columns": [
+    "folder_path",
+    "folder_name",
+    "run_index"
+  ],
+  "original_dataset_column_count": 310
+}

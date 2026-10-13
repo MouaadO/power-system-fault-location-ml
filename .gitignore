@@ -1,0 +1,20 @@
+# Private configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+# Generated environments and artifacts
+.venv/
+__pycache__/
+slprj/
+*.slxc
+*.asv
+*.log
+*.pkl
+*.keras
+*.h5
+*.mat
+# Full datasets belong outside this compact source package
+data/raw/
+data/full/
