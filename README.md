@@ -1,8 +1,8 @@
 # Power System Fault Location with Machine Learning
 
-An IEEE 39-bus transmission-network study comparing impedance-based fault location with machine learning and hybrid residual correction. The research also considers an inverter-based renewable-generation scenario.
+For my final-year research project, I studied fault classification and location on the IEEE 39-bus network. I compared impedance-based methods, machine learning and hybrid correction, including a renewable-generation scenario.
 
-## What it does
+## Main features
 
 - Simulates transmission-line faults and analyzes voltage/current measurements at both line terminals.
 - Extracts phasors and symmetrical-component features.
@@ -15,7 +15,7 @@ An IEEE 39-bus transmission-network study comparing impedance-based fault locati
 
 ## Results
 
-The following results are reported in the [technical thesis](docs/fault-location-thesis.pdf) for the main 21,317-case dataset.
+Results for the 21,317-case dataset, detailed in my [thesis](docs/fault-location-thesis.pdf).
 
 | Method | Distance MAE (% of line length) | Fault-classification accuracy (%) |
 | --- | ---: | ---: |
@@ -26,7 +26,7 @@ The following results are reported in the [technical thesis](docs/fault-location
 
 ![Standalone fault-location results from the thesis](docs/standalone-comparison.png)
 
-The thesis also presents renewable-generation experiments and physics-informed residual learning.
+I also studied renewable-generation scenarios and hybrid models that correct the residual error of the impedance-based estimate.
 
 ## Tools
 
@@ -57,4 +57,4 @@ Read the thesis for the methodology and experiments, and open the [feature sampl
 | [Data guide](docs/data-guide.md) | Column descriptions |
 | [Dataset summary](data/dataset-summary.json) | Dataset and fault-class overview |
 
-Developed as a collaborative academic engineering project.
+Academic group project at the National Polytechnic School of Algiers.
